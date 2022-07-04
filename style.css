@@ -20,6 +20,7 @@ a{
   color: white;
   
 }
+/* banner section */
 
 .banner {
   padding: 0 10%;
@@ -54,7 +55,7 @@ span {
   width: 90%;
   margin-right: 60px;
 }
-
+/* about me sectio */
 .about-sec {
   display: flex;
   height: 400px;
@@ -84,7 +85,7 @@ span {
   margin-top: 200vh;
 }
 
-/* recipes */
+/* recipes section */
 
 .recipies {
   margin-top: 100px;
@@ -118,4 +119,22 @@ span {
 .recipies-item .text {
   text-align: justify;
   margin-right: 10%;
+}
+
+/* social media section */
+
+.socoal-media-sec{
+  display:flex;
+  justify-content: space-between;
+  margin: 10% 10%;
+  padding: 2% 10%;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px 5px rgba(128, 128, 128, 0.35);
+}
+.media span {
+  font-size: 50px;
+  font-weight: 700;
+}
+.media h1 {
+  font-size: 15px;
 }
