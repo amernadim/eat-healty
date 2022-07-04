@@ -35,7 +35,7 @@ a{
   font-size: 50px;
   font-weight: 800;
 }
-span {
+.spn {
   color:cornflowerblue;
 }
 .banner p {
@@ -137,4 +137,27 @@ span {
 }
 .media h1 {
   font-size: 15px;
+}
+/* footer */
+footer {
+  background-color: #0B0D17;
+  height: 200px;
+  text-align: center;
+}
+.clr-one {
+  color: #EEA607 ;
+  font-size: 30px;
+}
+.clr-two {
+  color: grey;
+  font-size: 30px;
+}
+
+footer p{
+  font-size: 18px;
+  color: white;
+  
+}
+footer div{
+  padding: 4% 0;
 }
