@@ -83,3 +83,39 @@ span {
 .text-sec a {
   margin-top: 200vh;
 }
+
+/* recipes */
+
+.recipies {
+  margin-top: 100px;
+}
+.top-text h3 {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+.top-text p {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.recipies-item-s {
+  display: flex;
+  gap: 30px;
+  margin: 40px 10% 0 10% ;
+}
+.recipies-item {
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px 5px rgba(128, 128, 128, 0.35);
+  padding: 20px 0 20px 20px;
+  width: 50%;
+}
+.recipies-item img {
+  height: 250px;
+  width: 90%;
+}
+.recipies-item .text {
+  text-align: justify;
+  margin-right: 10%;
+}
